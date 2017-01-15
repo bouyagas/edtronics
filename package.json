@@ -1,0 +1,19 @@
+{
+  "name": "edtronics",
+  "version": "1.0.0",
+  "description": "This is a eductional technology company that specilize in hardware and software for teachers students schools and parents.",
+  "main": "server.js ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mohamed Gassama & Joey Pinhas or Alex Song",
+  "license": "MIT ",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
