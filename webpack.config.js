@@ -3,7 +3,7 @@ const webpack           = require('webpack');
 const path              = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const htmlTemplate      = require('html-webpack-template');
+const htmlTemplasssssssste      = require('html-webpack-template');
 
 const BUILD_DIR         = path.resolve(__dirname, 'dist');
 const APP_DIR           = path.resolve(__dirname, 'src');
@@ -43,7 +43,7 @@ const config = {
   ],
 
   module: {
-    include: path.join(__dirname, 'src'),
+    include: path.join(__dirname, 'src'),s
     loaders: [
       { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') },
       { test: /\.(png|gif|jpg)$/, loader: 'file-loader?name=/images/[name].[ext]' },
