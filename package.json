@@ -4,7 +4,12 @@
   "description": "This is a eductional technology company that specilize in hardware and software for teachers students schools and parents.",
   "main": "server.js ",
   "scripts": {
+    "clean": "rm -rf dist && rm -rf node_modules",
+    "heroku-prebuild": "bash ./scripts/deployment_react.sh",
+    "heroku-postbuild": "bash ./scripts/deployment_cleanup.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "rebuild": "webpack -d --progress --colors",
+    "watch": "webpack -d --progress --watch",
     "start": "node server.js"
   },
   "author": "Mohamed Gassama & Joey Pinhas or Alex Song",
@@ -15,5 +20,12 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pg-promise": "^5.5.1"
   }
 }
