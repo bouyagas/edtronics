@@ -1,3 +1,4 @@
+'use strict'
 const webpack           = require('webpack');
 const path              = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -20,7 +21,9 @@ const config = {
     colors:  true,
     reasons: true,
   },
-
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
@@ -28,7 +31,7 @@ const config = {
       },
     }),
     new HtmlWebpackPlugin({
-      title:      'Community',
+      title:      'Edtronics',
       xhtml:      true,
       inject:     false,
       template:   htmlTemplate,
@@ -40,6 +43,7 @@ const config = {
   ],
 
   module: {
+    include: path.join(__dirname, 'src'),
     loaders: [
       { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') },
       { test: /\.(png|gif|jpg)$/, loader: 'file-loader?name=/images/[name].[ext]' },
