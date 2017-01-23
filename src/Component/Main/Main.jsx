@@ -3,8 +3,8 @@ import './Main';
 
 const Main = (props) => {
 	return (
-      <div>
-        <h1>this is Main </h1>
+      <div id="main">
+        <p>{props.main}</p>
       </div>
 	);
 }

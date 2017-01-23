@@ -5,9 +5,10 @@ const Header = (props) => {
 	return (
       <div>
         <h1> Welcome to Edtronics </h1>
-        <h1>this is Header </h1>
+         <p>{props.header}</p>
       </div>
 	);
+
 }
 
 export default Header;

@@ -3,10 +3,13 @@ import './Footer';
 
 const Footer = (props) => {
 	return (
-      <div>
-        <h1>this is Footer </h1>
+      <div id="footer">
+        <h1>{props.footer}</h1>
+        <p>{props.myName}</p>
       </div>
 	);
+
+
 }
 
 export default Footer;

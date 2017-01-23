@@ -6,7 +6,7 @@ const path = require ('path');
 const bodyParser = require ('body-parser');
 
 const server = express();
-const PORT = process.argv[2] || process.env.PORT || 3000;
+const PORT = process.argv[2] || process.env.PORT || 3001;
 
 server.use(logger('dev'));
 
