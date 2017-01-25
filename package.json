@@ -11,7 +11,7 @@
     "clean": "rm -rf dist && rm -rf node_modules",
     "heroku-prebuild": "bash ./scripts/deployment_react.sh",
     "heroku-postbuild": "bash ./scripts/deployment_cleanup.sh",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "rebuild": "webpack -d --progress --colors",
     "watch": "webpack -d --progress --watch",
     "start": "node server.js",
@@ -36,6 +36,7 @@
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.26.0",
     "html-webpack-template": "^6.0.0",
+    "mocha": "^3.2.0",
     "postcss-loader": "^1.2.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -47,7 +48,9 @@
     "webpack": "^1.14.0"
   },
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
     "dotenv": "^4.0.0",
     "express": "^4.14.0",
     "morgan": "^1.7.0",
