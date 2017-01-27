@@ -22,13 +22,15 @@ server.use(helmet());
 
 server.use(express.static(path.join(__dirname, 'dist')));
 
-server.use((err, req, res, next) => {
-   res.status(500).send('something is wrong');
- });
-
 server.use((req, res, next)  => {
   res.status(404).send("Sorry can't find that!")
 });
+
+server.use((err, req, res, next) => {
+   console.error(err.stack)
+   res.status(500).send('Something is wrong');
+});
+
 
 server.listen(PORT, () =>{
   console.log(colors.info('Welcome to Edtronics! server listening on port 3001', PORT))
