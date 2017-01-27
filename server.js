@@ -4,6 +4,7 @@ const express = require ('express');
 const logger = require ('morgan');
 const path = require ('path');
 const bodyParser = require ('body-parser');
+const helmet = require('helmet');
 const colors = require('colors/safe');
 
 colors.setTheme({
@@ -17,9 +18,21 @@ server.use(logger('dev'));
 
 server.use(bodyParser.json());
 
+server.use(helmet());
+
 server.use(express.static(path.join(__dirname, 'dist')));
 
-server.listen(PORT, () => console.log(colors.info('Welcome to Edtronics! server listening on port 3001', PORT)));
+server.use((err, req, res, next) => {
+   res.status(500).send('something is wrong');
+ });
+
+server.use((req, res, next)  => {
+  res.status(404).send("Sorry can't find that!")
+});
+
+server.listen(PORT, () =>{
+  console.log(colors.info('Welcome to Edtronics! server listening on port 3001', PORT))
+});
 
 
 
