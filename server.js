@@ -1,4 +1,5 @@
 'use strict';
+
 require('dotenv').config({ silent: true });
 const express = require ('express');
 const logger = require ('morgan');
@@ -22,8 +23,7 @@ server.use(helmet());
 
 server.use(express.static(path.join(__dirname, 'dist')));
 
-server.use((err,req, res, next)  => {
-  console.error(err.stack);
+server.use((req, res, next)  => {
   res.status(404).send("Sorry can't find that!")
 });
 

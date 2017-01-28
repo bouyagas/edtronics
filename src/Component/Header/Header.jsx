@@ -5,7 +5,6 @@ const Header = (props) => {
 	return (
       <div>
         <h1> Welcome to Edtronics </h1>
-         <p>{props.header}</p>
       </div>
 	);
 

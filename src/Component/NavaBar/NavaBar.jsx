@@ -5,7 +5,7 @@ const NavaBar = (props) => {
 
 	return (
       <div id="navbar">
-      <p>{props.navbar}</p>
+      <p>this is a navbar</p>
       </div>
 	);
 
