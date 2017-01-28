@@ -1,10 +1,11 @@
 import React from 'react';
-import './Header';
+import './Header.css';
 
 const Header = (props) => {
 	return (
-      <div>
-        <h1> Welcome to Edtronics </h1>
+      <div id="#header">
+        <h1>Edtronics</h1>
+
       </div>
 	);
 

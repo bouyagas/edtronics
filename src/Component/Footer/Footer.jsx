@@ -49,7 +49,7 @@ const Footer = (props) => {
        <h5>Learn</h5>
       	<ul>
       		<li><Link to="#" className="link">Personalize Learning</Link></li>
-      		<li><Link to="#" className="link">Educational Datas and Analytics</Link></li>
+      		<li><Link to="#" className="link">Educational Data and Analytics</Link></li>
       		<li><Link to="#" className="link">Competent-Base Learning </Link></li>
       		<li><Link to="#" className="link">Machine Learning</Link></li>
       		<li><Link to="#" className="link">Virtual reality & Augmented reality</Link></li>

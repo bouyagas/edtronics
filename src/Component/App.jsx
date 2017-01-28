@@ -4,7 +4,6 @@ import Aside from './Aside/Aside';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Main from './Main/Main';
-import NavBar from './NavaBar/NavaBar';
 import './App.css'
 
 class App extends React.Component {
@@ -19,7 +18,6 @@ class App extends React.Component {
     render() {
         return (
           <div>
-           <NavBar />
            <Header/>
            { this.props.children && React.cloneElement(this.props.children, {
 
