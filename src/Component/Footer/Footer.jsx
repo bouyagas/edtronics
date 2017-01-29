@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = (props) => {
 	return (
       <div id="footer">
-      <div className="product">
+      <div className="product-list">
        <h5> Edtronics Product</h5>
       	<ul>
       		<li><Link to="#" className="link">Interactive whiteboards</Link></li>
