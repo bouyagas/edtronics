@@ -9,6 +9,7 @@ const NavaBar = (props) => {
         <div className="nav">
         	<ul>
         		<li><Link to="/" className="navlink logo" >Edtronics</Link></li>
+            <section className="product">
         		<li><Link to="#" className="navlink">hello</Link></li>
         		<li><Link to="#" className="navlink">hello</Link></li>
         		<li><Link to="#" className="navlink">hello</Link></li>
@@ -16,6 +17,7 @@ const NavaBar = (props) => {
         		<li><Link to="#" className="navlink">hello</Link></li>
         		<li><Link to="#" className="navlink">hello</Link></li>
         		<li><Link to="#" className="navlink">hello</Link></li>
+             </section>
         	</ul>
         </div>
       </div>
