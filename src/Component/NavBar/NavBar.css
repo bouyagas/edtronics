@@ -21,8 +21,7 @@
 }
 
 .navlink {
- /* color: rgb(98, 98, 98);*/
- color: black
+ color: rgb(51, 51, 51);
 }
 .navlink:link {
   text-decoration: none;
