@@ -2,10 +2,10 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  height:230px;
+  position: absolute;
+  left: 0px;
+  top: 1425px;
+  height: 230px;
   width:100%;
   font-size: 9px;
   color: rgb(51, 51, 51);
@@ -54,7 +54,7 @@ ul {
 .para {
   font-size: 7px;
   position: absolute;
-  top: 189px;
-  left: 610px;
+  top: 196px;
+  left: 654px;
 }
 

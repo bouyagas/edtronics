@@ -1,10 +1,9 @@
 import React from 'react';
-import './Main';
+import './Main.css';
 
 const Main = (props) => {
 	return (
       <div id="main">
-        <p>{props.main}</p>
       </div>
 	);
 }

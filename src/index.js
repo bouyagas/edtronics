@@ -10,7 +10,6 @@ import App from './Component/App';
 const router = (
   <Router history={hashHistory}>
     <Route path='/' component={App}>
-      <Route path='/main' component={Main}/>
     </Route>
   </Router>
 )
