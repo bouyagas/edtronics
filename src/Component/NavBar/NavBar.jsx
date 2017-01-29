@@ -7,7 +7,7 @@ const NavaBar = (props) => {
 	return (
       <div id="navbar">
         <div className="nav">
-        	<ul className="ul">
+        	<ul>
         		<li><Link to="/" className="navlink">Edtronics</Link></li>
         		<li><Link to="#" className="navlink">hello</Link></li>
         		<li><Link to="#" className="navlink">hello</Link></li>

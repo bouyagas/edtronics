@@ -7,7 +7,7 @@ const Main = (props) => {
        <h1>Welcome to Edtronics</h1>
        <p>
          Edtronics is an education technology company.
-         We specializes in designing and developing educational electronics,
+         That specialize in designing and developing educational electronics,
          computer hardware/softwares and deliever online services for schools, students, teachers and parents
        </p>
      </div>
