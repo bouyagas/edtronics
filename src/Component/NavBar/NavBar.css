@@ -12,10 +12,10 @@
 }
 
 .logo {
-  font-size: 46px;
+  font-size: 42px;
   font-family: trench;
   position: absolute;
-  top: 1px;
+  top: 4px;
   left: 20px;
 }
 
@@ -24,7 +24,7 @@
 }
 .navlink:link {
   text-decoration: none;
-  margin-right: 45px;
+  margin-right: 95px;
 }
 
 .navlink:hover {
@@ -35,7 +35,10 @@
  display: flex;
  position: absolute;
  top: 18px;
- left: 243px;
-
+ left: 510px;
 }
 
+
+section .product {
+  font-size: 0.9em;
+}
