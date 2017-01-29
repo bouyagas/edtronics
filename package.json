@@ -17,6 +17,12 @@
     "start": "node server.js",
     "debug-server": "nodemon --debug server.js",
     "debug": "node-inspector server.js",
+    "db": "psql Edtronics",
+    "heroku": "git push heroku master",
+    "heroku-logs": "heroku logs --tail",
+    "heroku-local": "heroku local web",
+    "heroku-papertrail": "heroku addons:open papertrail",
+    "heroku-db": "heroku pg:psql",
     "git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push"
   },
   "author": "Mohamed Gassama & Joey Pinhas or Alex Song",
