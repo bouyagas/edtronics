@@ -8,13 +8,12 @@
   /*background: rgb(242, 242, 242);*/
   background-color: #FFFFFF;
   font-size: 23px;
-  font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;
+  font-family: trench;
   list-style-type: none;
 }
 
 .logo {
   font-size: 35px;
-  font-family: trench;
   position: absolute;
   top: 12px;
   left: 20px;
