@@ -12,11 +12,11 @@
 }
 
 .logo {
-  font-size: 21px;
-  font-family: cursive;
+  font-size: 28px;
+  font-family: trench;
   position: absolute;
-  top: 2px;
-  left: 6px;
+  top: -4px;
+  left: 20px;
 }
 
 .navlink {
