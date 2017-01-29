@@ -4,10 +4,10 @@
     flex-wrap: wrap;
     position: absolute;
     left: 0;
-    top: 2264px;
+    top: 2255px;
     height: 230px;
     width: 100%;
-    font-size: 13px;
+    font-size: 17px;
     color: rgb(51, 51, 51);
     background: rgb(242, 242, 242);
     font-weight: 400;
@@ -51,9 +51,9 @@ ul {
 }
 
 .para {
-  font-size: 10px;
-  position: absolute;
-  top: 281px;
-  left: 874px;
+ font-size: 13px;
+ position: absolute;
+ top: 358px;
+ left: 1113px;
 }
 
