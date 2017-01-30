@@ -70,14 +70,14 @@ const Footer = (props) => {
        <div className="store">
         <h5>About Edtronics</h5>
        	<ul>
-       		<li><Link to="#" className="link">Edtronics Info</Link></li>
-       		<li><Link to="#" className="link">Newsroom</Link></li>
-       		<li><Link to="#" className="link">Careers</Link></li>
-       		<li><Link to="#" className="link">Recherches</Link></li>
-       		<li><Link to="#" className="link">Press Info</Link></li>
-       		<li><Link to="#" className="link">Investors</Link></li>
-       		<li><Link to="#" className="link">Events</Link></li>
-       		<li><Link to="#" className="link">Contact Edtronics</Link></li>
+       		<li><Link to="info" className="link">Edtronics Info</Link></li>
+       		<li><Link to="news" className="link">Newsroom</Link></li>
+       		<li><Link to="careers" className="link">Careers</Link></li>
+       		<li><Link to="recherchers" className="link">Recherches</Link></li>
+       		<li><Link to="info" className="link">Press Info</Link></li>
+       		<li><Link to="investors" className="link">Investors</Link></li>
+       		<li><Link to="events" className="link">Events</Link></li>
+       		<li><Link to="contact" className="link">Contact Edtronics</Link></li>
        	</ul>
        </div>
         	<div>

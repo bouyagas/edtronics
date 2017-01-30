@@ -3,13 +3,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
-import Main from './Component/Main/Main';
-import App from './Component/App';
+import App from './Components/App';
+import Careers from './Components/Careers/Careers';
+import ContactEdtronics from './Components/ContactEdtronics/ContactEdtronics';
+import EdtronicInfo from './Components/EdtronicInfo/EdtronicInfo';
+import Events from './Components/Events/Events';
+import Investors from './Components/Investors/Investors';
+import Newsroom from './Components/Newsroom/Newsroom';
+import PressInfo from './Components/PressInfo/PressInfo';
+import Recherches from './Components/Recherches/Recherches';
 
 
 const router = (
   <Router history={hashHistory}>
     <Route path='/' component={App}>
+      <Route to='/careers' component={Careers} />
+      <Route to='/contact' component={ContactEdtronics}/>
+      <Route to='/info' component={EdtronicInfo}/>
+      <Route to='/events' component={Events}/>
+      <Route to='/investors' component={Investors}/>
+      <Route to='/news' component={Newsroom}/>
+      <Route to='/press' component={PressInfo}/>
+      <Route to='/recherches' component={Recherches}/>
     </Route>
   </Router>
 )
