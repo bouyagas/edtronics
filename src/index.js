@@ -12,6 +12,12 @@ import Investors from './Components/Investors/Investors';
 import Newsroom from './Components/Newsroom/Newsroom';
 import PressInfo from './Components/PressInfo/PressInfo';
 import Recherches from './Components/Recherches/Recherches';
+import Accessibility from './Components/Accessibility/Accessibility';
+import CorperateSocialResponsibility from './Components/CorperateSocialResponsibility/CorperateSocialResponsibility';
+import DiversityAndInclusion from './Components/DiversityAndInclusion/DiversityAndInclusion';
+import Environment from './Components/Environment/Environment';
+import Privacy from './Components/Privacy/Privacy';
+import SupplierResponsibility from './Components/SupplierResponsibility/SupplierResponsibility';
 
 
 const router = (
@@ -25,6 +31,12 @@ const router = (
       <Route to='/news' component={Newsroom}/>
       <Route to='/press' component={PressInfo}/>
       <Route to='/recherches' component={Recherches}/>
+      <Route to='/accessibility' component={Accessibility}/>
+      <Route to='/social' component={CorperateSocialResponsibility}/>
+      <Route to='/diversity' component={DiversityAndInclusion}/>
+      <Route to='privacy' component={Privacy}/>
+      <Route to="environment" component={Environment}/>
+      <Route to='supplier'  component={ SupplierResponsibility}/>
     </Route>
   </Router>
 )

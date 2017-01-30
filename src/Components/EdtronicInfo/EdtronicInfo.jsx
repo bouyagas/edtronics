@@ -2,14 +2,14 @@ import React from 'react';
 import './EdtronicInfo.css';
 
 
-const Careers = (props) => {
+const EdtronicInfo = (props) => {
     return (
       <div>
-          <h1>careers</h1>
+          <h1>EdtronicInfo</h1>
       </div>
     );
 };
 
 
 
-export default Careers;
+export default EdtronicInfo;

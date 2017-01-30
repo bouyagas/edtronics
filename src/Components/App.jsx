@@ -13,6 +13,12 @@ import NavBar from './NavBar/NavBar';
 import Newsroom from './Newsroom/Newsroom';
 import PressInfo from './PressInfo/PressInfo';
 import Recherches from './Recherches/Recherches';
+import Accessibility from './Components/Accessibility/Accessibility';
+import CorperateSocialResponsibility from './Components/CorperateSocialResponsibility/CorperateSocialResponsibility';
+import DiversityAndInclusion from './Components/DiversityAndInclusion/DiversityAndInclusion';
+import Environment from './Components/Environment/Environment';
+import Privacy from './Components/Privacy/Privacy';
+import SupplierResponsibility from './Components/SupplierResponsibility/SupplierResponsibility';
 import './App.css'
 
 class App extends React.Component {

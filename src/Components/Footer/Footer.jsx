@@ -59,12 +59,12 @@ const Footer = (props) => {
       <div className="values">
         <h5>Edtronics Values</h5>
       	<ul>
-      		<li><Link to="#" className="link">Diversity and inclusion</Link></li>
-      		<li><Link to="#" className="link">Accessibility</Link></li>
-      		<li><Link to="#" className="link">Environment</Link></li>
-      		<li><Link to="#" className="link">Privacy</Link></li>
-      		<li><Link to="#" className="link">Supplier Responsibility</Link></li>
-      		<li><Link to="#" className="link">Corporate social responsibility</Link></li>
+      		<li><Link to="diversity" className="link">Diversity and inclusion</Link></li>
+      		<li><Link to="accessibility" className="link">Accessibility</Link></li>
+      		<li><Link to="environment" className="link">Environment</Link></li>
+      		<li><Link to="privacy" className="link">Privacy</Link></li>
+      		<li><Link to="supplier" className="link">Supplier Responsibility</Link></li>
+      		<li><Link to="social" className="link">Corporate social responsibility</Link></li>
       	</ul>
       </div>
        <div className="store">
