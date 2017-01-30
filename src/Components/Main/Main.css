@@ -7,13 +7,13 @@
  width: 100%;
  color: rgb(242, 242, 242);
  margin: 47px 121px 27px 0;
-/* font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;*/
+ font-family: helvetica;
 }
 
 
 #main h1, p{
   margin-left: 23px;
-  font-family: helvetica;
+
 }
 
 #main  h1 {
