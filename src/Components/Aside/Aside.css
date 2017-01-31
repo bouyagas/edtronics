@@ -3,6 +3,9 @@
   background-color: rgb(0, 0, 0);
   width: 92%;
   margin: 282px 121px 27px 60px;
+  background-image: url('../ed-tech.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
