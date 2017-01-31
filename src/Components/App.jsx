@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router';
 import Article from './Article/Article';
 import Aside from './Aside/Aside';
@@ -21,7 +21,12 @@ import Privacy from './Privacy/Privacy';
 import SupplierResponsibility from './SupplierResponsibility/SupplierResponsibility';
 import './App.css'
 
-class App extends React.Component {
+export default class App extends React.Component {
+
+    static defaultProps = {};
+
+    static propTypes = {};
+
     constructor(props) {
       super(props);
 
@@ -45,10 +50,5 @@ class App extends React.Component {
         );
     }
 
-
-
 }
 
-
-
-export default App;
