@@ -19,6 +19,9 @@
   left: 20px;
 }
 
+.logo:link {
+  text-decoration: none;
+}
 
 .navlink {
  color: rgb(51, 51, 51);
