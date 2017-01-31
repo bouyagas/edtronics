@@ -16,7 +16,7 @@ const NavaBar = (props) => {
         		<li><Link to="#" className="navlink">Technical Institution</Link></li>
         		<li><Link to="#" className="navlink">Support</Link></li>
         		<li><Link to="#" className="navlink">SignUp</Link></li>
-        		<li><Link to="#" className="navlink">logIn</Link></li>
+        		<li><Link to="#" className="navlink">LogIn</Link></li>
              </section>
         	</ul>
         </div>
