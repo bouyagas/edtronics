@@ -28,15 +28,16 @@
 }
 
 .navlink:hover {
- color: #696969;
+ color: #D2B48C;
+ text-decoration: underline;
 }
 
 .product {
  display: flex;
  position: absolute;
  top: 18px;
- left: 380px;
- letter-spacing: 2px;
+ left: 445px;
+ letter-spacing: 1px;
 }
 
 
