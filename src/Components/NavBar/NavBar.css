@@ -24,7 +24,7 @@
 }
 .navlink:link {
   text-decoration: none;
-  margin-right: 95px;
+  margin-right: 50px;
 }
 
 .navlink:hover {
@@ -35,7 +35,8 @@
  display: flex;
  position: absolute;
  top: 18px;
- left: 510px;
+ left: 380px;
+ letter-spacing: 2px;
 }
 
 
