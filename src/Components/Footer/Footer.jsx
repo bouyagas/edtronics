@@ -44,6 +44,12 @@ const Footer = (props) => {
        		<li><Link to="#" className="link">Sales & support</Link></li>
        		<li><Link to="#" className="link">Financing</Link></li>
        	</ul>
+          <div className="platform">
+             <h5>Platform</h5>
+            <ul>
+              <li><Link to="#" className="link"></Link></li>
+            </ul>
+          </div>
        </div>
       <div className="learn">
        <h5>Learn</h5>
@@ -55,6 +61,15 @@ const Footer = (props) => {
       		<li><Link to="#" className="link">Virtual reality & Augmented reality</Link></li>
       		<li><Link to="#" className="link">Artificial Intelligence</Link></li>
       	</ul>
+        <div className="schools">
+          <h5>School</h5>
+          <lu>
+            <li><Link to="#" className="link">Kindergarten</Link></li>
+            <li><Link to="#" className="link">K-12</Link></li>
+            <li><Link to="#" className="link">Higher Education</Link></li>
+            <li><Link to="#" className="link">Technical Institution</Link></li>
+          </lu>
+        </div>
       </div>
       <div className="values">
         <h5>Edtronics Values</h5>
