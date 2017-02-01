@@ -11,7 +11,7 @@ const NavaBar = (props) => {
         		<li><Link to="/" className=" logo" >Edtronics</Link></li>
             <section className="product">
         		<li><Link to="#" className="navlink">Kindergarten</Link></li>
-        		<li><Link to="#" className="navlink">K-12</Link></li>
+        		<li><Link to="#" className="navlink">K12</Link></li>
         		<li><Link to="#" className="navlink">Higher Education</Link></li>
         		<li><Link to="#" className="navlink">Technical Institution</Link></li>
         		<li><Link to="#" className="navlink">Support</Link></li>
