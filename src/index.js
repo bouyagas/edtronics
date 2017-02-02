@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
-import App from './Components/App';
+import App from './Container/App';
 import Careers from './Components/Careers/Careers';
 import ContactEdtronics from './Components/ContactEdtronics/ContactEdtronics';
 import EdtronicInfo from './Components/EdtronicInfo/EdtronicInfo';
