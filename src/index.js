@@ -3,21 +3,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
-import App from './Container/App';
-import Careers from './Components/Careers/Careers';
-import ContactEdtronics from './Components/ContactEdtronics/ContactEdtronics';
-import EdtronicInfo from './Components/EdtronicInfo/EdtronicInfo';
-import Events from './Components/Events/Events';
-import Investors from './Components/Investors/Investors';
-import Newsroom from './Components/Newsroom/Newsroom';
-import PressInfo from './Components/PressInfo/PressInfo';
-import Recherches from './Components/Recherches/Recherches';
-import Accessibility from './Components/Accessibility/Accessibility';
-import CorperateSocialResponsibility from './Components/CorperateSocialResponsibility/CorperateSocialResponsibility';
-import DiversityAndInclusion from './Components/DiversityAndInclusion/DiversityAndInclusion';
-import Environment from './Components/Environment/Environment';
-import Privacy from './Components/Privacy/Privacy';
-import SupplierResponsibility from './Components/SupplierResponsibility/SupplierResponsibility';
+import App from './container/App';
+import Careers from './components/Careers/Careers';
+import ContactEdtronics from './components/ContactEdtronics/ContactEdtronics';
+import EdtronicInfo from './components/EdtronicInfo/EdtronicInfo';
+import Events from './components/Events/Events';
+import Investors from './components/Investors/Investors';
+import Newsroom from './components/Newsroom/Newsroom';
+import PressInfo from './components/PressInfo/PressInfo';
+import Recherches from './components/Recherches/Recherches';
+import Accessibility from './components/Accessibility/Accessibility';
+import CorperateSocialResponsibility from './components/CorperateSocialResponsibility/CorperateSocialResponsibility';
+import DiversityAndInclusion from './components/DiversityAndInclusion/DiversityAndInclusion';
+import Environment from './components/Environment/Environment';
+import Privacy from './components/Privacy/Privacy';
+import SupplierResponsibility from './components/SupplierResponsibility/SupplierResponsibility';
 
 
 const router = (

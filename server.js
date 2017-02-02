@@ -33,11 +33,13 @@ server.use((err, req, res, next) => {
 });
 
 
-server.listen(PORT, () => {
-  console.log(colors.info('Welcome to Edtronics! server listening on port 3001', PORT))
-});
-
-
+server.listen(PORT, (error) => {
+  if (error) {
+    console.error(error)
+  } else {
+    console.info(colors.info(`==> 🌎  Listening on port ${PORT}. Open up http://localhost:${PORT}/ in your browser.`))
+  }
+})
 
 
 
