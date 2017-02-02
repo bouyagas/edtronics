@@ -35,7 +35,7 @@
 .navlink:hover {
  color: #D2B48C;
  text-decoration: underline;
- cursor: auto;
+ cursor: grab;
 }
 
 .product {
