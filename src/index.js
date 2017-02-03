@@ -23,20 +23,20 @@ import SupplierResponsibility from './Components/SupplierResponsibility/Supplier
 const router = (
   <Router history={hashHistory}>
     <Route path='/' component={App}>
-      <Route to='/careers' component={Careers} />
-      <Route to='/contact' component={ContactEdtronics}/>
-      <Route to='/info' component={EdtronicInfo}/>
-      <Route to='/events' component={Events}/>
-      <Route to='/investors' component={Investors}/>
-      <Route to='/news' component={Newsroom}/>
-      <Route to='/press' component={PressInfo}/>
-      <Route to='/recherches' component={Recherches}/>
-      <Route to='/accessibility' component={Accessibility}/>
-      <Route to='/social' component={CorperateSocialResponsibility}/>
-      <Route to='/diversity' component={DiversityAndInclusion}/>
-      <Route to='privacy' component={Privacy}/>
-      <Route to="environment" component={Environment}/>
-      <Route to='supplier'  component={ SupplierResponsibility}/>
+      <Route path='/careers' component={Careers} />
+      <Route path='/contact' component={ContactEdtronics}/>
+      <Route path='/info' component={EdtronicInfo}/>
+      <Route path='/events' component={Events}/>
+      <Route path='/investors' component={Investors}/>
+      <Route path='/news' component={Newsroom}/>
+      <Route path='/press' component={PressInfo}/>
+      <Route path='/recherches' component={Recherches}/>
+      <Route path='/accessibility' component={Accessibility}/>
+      <Route path='/social' component={CorperateSocialResponsibility}/>
+      <Route path='/diversity' component={DiversityAndInclusion}/>
+      <Route path='/privacy' component={Privacy}/>
+      <Route path="/environment" component={Environment}/>
+      <Route path='/supplier'  component={ SupplierResponsibility}/>
     </Route>
   </Router>
 )
