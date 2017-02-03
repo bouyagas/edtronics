@@ -1,12 +1,14 @@
 #careers {
  display: flex;
- align-content: center;
- flex-wrap: wrap;
- background-color: grey;
- height: 710.7px;
- width: 100%;
- color: rgb(242, 242, 242);
- margin: 47px 121px 27px 0;
- font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;
- background-color: pink;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(128, 128, 128);
+    height: 601.7px;
+    width: 100%;
+    color: rgb(242, 242, 242);
+    margin: 524px 214px 69px 0;
+    font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;
+    position: absolute;
+    top: -468px;
+    left: 0;
 }
