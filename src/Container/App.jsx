@@ -1,24 +1,24 @@
 import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router';
-import Article from '../components/Article/Article';
-import Aside from '../components/Aside/Aside';
-import Careers from '../components/Careers/Careers';
-import ContactEdtronics from '../components/ContactEdtronics/ContactEdtronics';
-import EdtronicInfo from '../components/EdtronicInfo/EdtronicInfo'
-import Events from '../components/Events/Events';
-import Footer from '../components/Footer/Footer';
-import Investors from '../components/Investors/Investors';
-import Main from '../components/Main/Main';
-import NavBar from '../components/NavBar/NavBar';
-import Newsroom from '../components/Newsroom/Newsroom';
-import PressInfo from '../components/PressInfo/PressInfo';
-import Recherches from '../components/Recherches/Recherches';
-import Accessibility from '../components/Accessibility/Accessibility';
-import CorperateSocialResponsibility from '../components/CorperateSocialResponsibility/CorperateSocialResponsibility';
-import DiversityAndInclusion from '../components/DiversityAndInclusion/DiversityAndInclusion';
-import Environment from '../components/Environment/Environment';
-import Privacy from '../components/Privacy/Privacy';
-import SupplierResponsibility from '../components/SupplierResponsibility/SupplierResponsibility';
+import Article from '../Components/Article/Article';
+import Aside from '../Components/Aside/Aside';
+import Careers from '../Components/Careers/Careers';
+import ContactEdtronics from '../Components/ContactEdtronics/ContactEdtronics';
+import EdtronicInfo from '../Components/EdtronicInfo/EdtronicInfo'
+import Events from '../Components/Events/Events';
+import Footer from '../Components/Footer/Footer';
+import Investors from '../Components/Investors/Investors';
+import Main from '../Components/Main/Main';
+import NavBar from '../Components/NavBar/NavBar';
+import Newsroom from '../Components/Newsroom/Newsroom';
+import PressInfo from '../Components/PressInfo/PressInfo';
+import Recherches from '../Components/Recherches/Recherches';
+import Accessibility from '../Components/Accessibility/Accessibility';
+import CorperateSocialResponsibility from '../Components/CorperateSocialResponsibility/CorperateSocialResponsibility';
+import DiversityAndInclusion from '../Components/DiversityAndInclusion/DiversityAndInclusion';
+import Environment from '../Components/Environment/Environment';
+import Privacy from '../Components/Privacy/Privacy';
+import SupplierResponsibility from '../Components/SupplierResponsibility/SupplierResponsibility';
 import './App.css'
 
 export default class App extends React.Component {

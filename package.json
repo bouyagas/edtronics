@@ -24,8 +24,9 @@
     "heroku-papertrail": "heroku addons:open papertrail",
     "heroku-db": "heroku pg:psql",
     "git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push",
-    "heroku-git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push && git push heroku master "
+    "heroku-git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push && git push heroku master"
   },
+
   "author": "Mohamed Gassama & Joey Pinhas or Alex Song",
   "license": "MIT ",
   "devDependencies": {
