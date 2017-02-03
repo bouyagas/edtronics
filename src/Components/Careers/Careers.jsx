@@ -4,7 +4,7 @@ import './Careers.css';
 
 const Careers = (props) => {
     return (
-      <div>
+      <div id="careers">
           <h1>career</h1>
       </div>
     );
