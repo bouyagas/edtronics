@@ -3,8 +3,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
-import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import App from './Container/App';
 import Careers from './Components/Careers/Careers';
@@ -21,15 +19,9 @@ import DiversityAndInclusion from './Components/DiversityAndInclusion/DiversityA
 import Environment from './Components/Environment/Environment';
 import Privacy from './Components/Privacy/Privacy';
 import SupplierResponsibility from './Components/SupplierResponsibility/SupplierResponsibility';
-import reducers from './reducers/index';
+import store, { history } from './store/index';
 // Add the reducer to your store on the `routing` key
-const store = createStore(
-  combineReducers({
-    ...reducers,
-    routing: routerReducer
-  })
-)
-const history = syncHistoryWithStore(browserHistory, store)
+
 
 const router = (
   <Provider store={store}>
