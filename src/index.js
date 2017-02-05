@@ -2,7 +2,10 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom'
-import { Router, Route, hashHistory, IndexRoute } from 'react-router';
+import { Provider } from 'react-redux';
+import { createStore, combineReducers } from 'redux';
+import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import App from './Container/App';
 import Careers from './Components/Careers/Careers';
 import ContactEdtronics from './Components/ContactEdtronics/ContactEdtronics';
@@ -18,27 +21,37 @@ import DiversityAndInclusion from './Components/DiversityAndInclusion/DiversityA
 import Environment from './Components/Environment/Environment';
 import Privacy from './Components/Privacy/Privacy';
 import SupplierResponsibility from './Components/SupplierResponsibility/SupplierResponsibility';
-
+import reducers from './reducers/index';
+// Add the reducer to your store on the `routing` key
+const store = createStore(
+  combineReducers({
+    ...reducers,
+    routing: routerReducer
+  })
+)
+const history = syncHistoryWithStore(browserHistory, store)
 
 const router = (
-  <Router history={hashHistory}>
-    <Route path='/' component={App}>
-      <Route path='/careers' component={Careers} />
-      <Route path='/contact' component={ContactEdtronics}/>
-      <Route path='/info' component={EdtronicInfo}/>
-      <Route path='/events' component={Events}/>
-      <Route path='/investors' component={Investors}/>
-      <Route path='/news' component={Newsroom}/>
-      <Route path='/press' component={PressInfo}/>
-      <Route path='/recherches' component={Recherches}/>
-      <Route path='/accessibility' component={Accessibility}/>
-      <Route path='/social' component={CorperateSocialResponsibility}/>
-      <Route path='/diversity' component={DiversityAndInclusion}/>
-      <Route path='/privacy' component={Privacy}/>
-      <Route path="/environment" component={Environment}/>
-      <Route path='/supplier'  component={ SupplierResponsibility}/>
-    </Route>
-  </Router>
+  <Provider store={store}>
+    <Router history={history}>
+      <Route path='/' component={App}>
+        <Route path='/careers' component={Careers} />
+        <Route path='/contact' component={ContactEdtronics}/>
+        <Route path='/info' component={EdtronicInfo}/>
+        <Route path='/events' component={Events}/>
+        <Route path='/investors' component={Investors}/>
+        <Route path='/news' component={Newsroom}/>
+        <Route path='/press' component={PressInfo}/>
+        <Route path='/recherches' component={Recherches}/>
+        <Route path='/accessibility' component={Accessibility}/>
+        <Route path='/social' component={CorperateSocialResponsibility}/>
+        <Route path='/diversity' component={DiversityAndInclusion}/>
+        <Route path='/privacy' component={Privacy}/>
+        <Route path="/environment" component={Environment}/>
+        <Route path='/supplier'  component={ SupplierResponsibility}/>
+      </Route>
+    </Router>
+  </Provider>
 )
 
 

@@ -1,18 +1,12 @@
 {
   "name": "edtronics",
-
   "version": "1.0.0",
-
   "engines": {
     "node": "7.1.0"
   },
-
   "private": true,
-
   "description": "This is a eductional technology company that specilize in hardware and software for teachers students schools and parents.",
-
   "main": "server.js ",
-
   "scripts": {
     "clean": "rm -rf dist && rm -rf node_modules",
     "heroku-prebuild": "bash ./scripts/deployment_react.sh",
@@ -33,11 +27,8 @@
     "git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push",
     "heroku-git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push && git push heroku master"
   },
-
   "author": "Mohamed Gassama & Joey Pinhas or Alex Song",
-
   "license": "MIT ",
-
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.21.0",
@@ -64,12 +55,16 @@
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
     "react-router": "^3.0.1",
+    "react-router-redux": "^4.0.7",
     "redux": "^3.6.0",
+    "redux-devtools": "^3.3.2",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.2.0",
+    "redux-slider-monitor": "^1.0.7",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.14.0"
   },
-
   "dependencies": {
     "bcrypt": "^1.0.2",
     "body-parser": "^1.15.2",
