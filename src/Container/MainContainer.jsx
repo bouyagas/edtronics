@@ -19,9 +19,9 @@ import DiversityAndInclusion from '../Components/DiversityAndInclusion/Diversity
 import Environment from '../Components/Environment/Environment';
 import Privacy from '../Components/Privacy/Privacy';
 import SupplierResponsibility from '../Components/SupplierResponsibility/SupplierResponsibility';
-import './App.css'
+import './MainContainer.css'
 
-export default class App extends React.Component {
+export default class MainContainer extends React.Component {
 
     static defaultProps = {};
 

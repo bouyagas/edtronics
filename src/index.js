@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
-import App from './Container/App';
+import MainContainer from './Container/MainContainer';
 import Careers from './Components/Careers/Careers';
 import ContactEdtronics from './Components/ContactEdtronics/ContactEdtronics';
 import EdtronicInfo from './Components/EdtronicInfo/EdtronicInfo';
@@ -26,7 +26,7 @@ import store, { history } from './store/index';
 const router = (
   <Provider store={store}>
     <Router history={history}>
-      <Route path='/' component={App}>
+      <Route path='/' component={MainContainer}>
         <Route path='/careers' component={Careers} />
         <Route path='/contact' component={ContactEdtronics}/>
         <Route path='/info' component={EdtronicInfo}/>
