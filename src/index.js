@@ -19,7 +19,7 @@ import DiversityAndInclusion from './Components/DiversityAndInclusion/DiversityA
 import Environment from './Components/Environment/Environment';
 import Privacy from './Components/Privacy/Privacy';
 import SupplierResponsibility from './Components/SupplierResponsibility/SupplierResponsibility';
-import NotFound from './NotFound/NotFound';
+
 import store, { history } from './store/index';
 // Add the reducer to your store on the `routing` key
 
@@ -42,11 +42,10 @@ const router = (
         <Route path='/privacy' component={Privacy}/>
         <Route path="/environment" component={Environment}/>
         <Route path='/supplier'  component={ SupplierResponsibility}/>
-        <Route path='*' component={NotFound} />
       </Route>
     </Router>
   </Provider>
 )
 
 
-ReactDOM.render((router), document.querySelector('#root-container'))
+ReactDOM.render((router), document.querySelector('#root-container'));

@@ -24,7 +24,7 @@ server.use(helmet());
 server.use(express.static(path.join(__dirname, 'dist')));
 
 server.use((req, res, next)  => {
-  res.status(404).send("Sorry can't find that!")
+  res.status(404).send("Sorry can't find that!");
 });
 
 server.use((err, req, res, next) => {
@@ -37,7 +37,7 @@ server.listen(PORT, (error) => {
   if (error) {
     console.error(error)
   } else {
-    console.info(colors.info(`==> 🌎  Listening on port ${PORT}. Open up http://localhost:${PORT}/ in your browser.`))
+    console.info(colors.info(`=====> 🌎  Listening on port ${PORT}. Open up http://localhost:${PORT}/ in your browser.`))
   }
 })
 
