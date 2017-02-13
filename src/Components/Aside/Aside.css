@@ -1,10 +1,10 @@
 #aside {
-  min-height: 556px;
+  min-height: 690px;
   background-color: rgb(0, 0, 0);
   width: 92%;
   color: #fff;
-  margin: 282px 121px 27px 60px;
-  background-image: url('../img/libery.jpg');
+  margin: 130px 121px 27px 60px;
+  background-image: url('../img/future.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
