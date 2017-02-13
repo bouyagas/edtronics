@@ -1,5 +1,5 @@
 import React, { PropTypes, Component } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import Article from '../Components/Article/Article';
 import Aside from '../Components/Aside/Aside';
 import Careers from '../Components/Careers/Careers';
@@ -37,7 +37,7 @@ export default class MainContainer extends React.Component {
 
     render() {
         return (
-          <div>
+          <div className="ui container">
            <NavBar />
            <Main />
            <Aside />
