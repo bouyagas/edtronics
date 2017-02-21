@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
-import MainContainer from './Container/MainContainer';
+import App from './Container/App';
 import Careers from './Components/Careers/Careers';
 import ContactEdtronics from './Components/ContactEdtronics/ContactEdtronics';
 import EdtronicInfo from './Components/EdtronicInfo/EdtronicInfo';
@@ -21,7 +21,7 @@ import Environment from './Components/Environment/Environment';
 import Privacy from './Components/Privacy/Privacy';
 import SupplierResponsibility from './Components/SupplierResponsibility/SupplierResponsibility';
 
-import store, { history } from './store/index';
+import store, { history } from './store/configureStore';
 // Add the reducer to your store on the `routing` key
 
 
@@ -29,7 +29,7 @@ const router = (
   <BrowserRouter>
       <Provider store={store}>
         <Router history={history}>
-          <Route path='/' component={MainContainer}>
+          <Route path='/' component={App}>
             <Route path='/careers' component={Careers} />
             <Route path='/contact' component={ContactEdtronics}/>
             <Route path='/info' component={EdtronicInfo}/>

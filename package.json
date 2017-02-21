@@ -27,7 +27,7 @@
     "git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push",
     "heroku-git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push && git push heroku master"
   },
-  "author": "Mohamed Gassama & Joey Pinhas or Alex Song",
+  "author": "Mohamed Gassama & Tenzin",
   "license": "MIT ",
   "devDependencies": {
     "babel": "^6.5.2",

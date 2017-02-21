@@ -5,7 +5,7 @@ import './Accessibility.css';
 const Accessibility = (props) => {
     return (
       <div>
-          <h1>event</h1>
+          <h1>Accessibility</h1>
       </div>
     );
 };
