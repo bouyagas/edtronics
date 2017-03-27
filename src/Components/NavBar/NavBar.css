@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "trench";
-  src: url("../fonts/trench100free.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 #navbar {
   position: fixed;
