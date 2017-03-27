@@ -30,7 +30,7 @@ const config = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
       },
     }),
-    new HtmlWebpackPlugin('views/[name].html', {
+    new HtmlWebpackPlugin({
       title:      'Edtronics',
       xhtml:      true,
       inject:     false,
