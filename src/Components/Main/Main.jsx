@@ -5,7 +5,7 @@ const Main = (props) => {
 	return (
      <div id="main">
        <h1>Welcome to <span>Edtronics</span></h1>
-        <p>Welcome to the world's leading education technology company</p>
+        <p>The world's leading education technology company</p>
      </div>
 	);
 }
