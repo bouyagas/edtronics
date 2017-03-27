@@ -13,7 +13,7 @@ colors.setTheme({
 });
 
 const server = express();
-const PORT = process.argv[2] || process.env.PORT || 3001;
+const PORT = process.argv[2] || process.env.PORT || 3000;
 
 server.use(logger('dev'));
 

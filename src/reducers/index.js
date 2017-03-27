@@ -16,7 +16,7 @@ const rootReducer = combineReducers({
 // This is where all reducer will be
 // Combine all our reducers togeher
 
- routing: routerReducer,
+ routing: routerReducer
 });
 
 export default rootReducer;
