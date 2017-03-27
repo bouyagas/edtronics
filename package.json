@@ -20,6 +20,8 @@
     "debug": "node-inspector server.js",
     "db": "psql Edtronics",
     "heroku": "git push heroku master",
+    "heroku-schema": "heroku pg:psql --app edtronics < db/schema.sql",
+    "heroku-seed": "heroku pg:psql --app edtronics < db/seed.sql",
     "heroku-logs": "heroku logs --tail",
     "heroku-local": "heroku local web",
     "heroku-papertrail": "heroku addons:open papertrail",
