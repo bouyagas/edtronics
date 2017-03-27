@@ -27,7 +27,7 @@
     "heroku-papertrail": "heroku addons:open papertrail",
     "heroku-db": "heroku pg:psql",
     "git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push",
-    "heroku-git": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push && git push heroku master"
+    "git-heroku": "git add . && git commit -m 'File updated in [Edtronics] application folder' && git push && git push heroku master"
   },
   "author": "Mohamed Gassama & Tenzin",
   "license": "MIT ",
@@ -60,6 +60,7 @@
     "react-router-dom": "^4.0.0-beta.5",
     "react-router-redux": "^4.0.7",
     "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
     "semantic-ui": "^2.2.7",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",

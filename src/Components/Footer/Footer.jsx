@@ -38,7 +38,7 @@ const Footer = (props) => {
        <h5>Edtronics Depot</h5>
         <ul>
        		<li><Link to="#" className="link">Find a Depot</Link></li>
-       		<li><Link to="#" className="link">Edtronics  App </Link></li>
+       		<li><Link to="#" className="link">Edtronics Store App </Link></li>
        		<li><Link to="#" className="link">Shopping Help</Link></li>
        		<li><Link to="#" className="link">Order Status</Link></li>
        		<li><Link to="#" className="link">Sales & support</Link></li>
