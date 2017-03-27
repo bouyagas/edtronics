@@ -36,6 +36,7 @@ const config = {
       inject:     false,
       template:   htmlTemplate,
       appMountId: 'root-container',
+      filename:   'views/index.html',
     }),
     new ExtractTextPlugin('assets/css/[name].css', {
       allChunks: true,
