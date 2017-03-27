@@ -50,6 +50,10 @@ const config = {
       { test: /\.ico$/, loader: 'file-loader?name=/[name].[ext]' },
       { test: /\.jsx?$/, loader: 'babel' },
       {
+        test: /\.otf(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'file-loader?name=/fonts/[name].[ext]'
+      },
+      {
         test:   /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'url-loader?limit=100&mimetype=application/font-woff&name=/fonts/[name].[ext]',
       },
