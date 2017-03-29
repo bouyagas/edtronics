@@ -35,9 +35,9 @@ const Footer = (props) => {
       	</ul>
       </div>
       <div className="store">
-       <h5>Edtronics Depot</h5>
+       <h5>Edtronics Store</h5>
         <ul>
-       		<li><Link to="#" className="link">Find a Depot</Link></li>
+       		<li><Link to="#" className="link">Find a Store</Link></li>
        		<li><Link to="#" className="link">Edtronics Store App </Link></li>
        		<li><Link to="#" className="link">Shopping Help</Link></li>
        		<li><Link to="#" className="link">Order Status</Link></li>
