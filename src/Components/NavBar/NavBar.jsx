@@ -8,7 +8,7 @@ const NavaBar = (props) => {
       <div id="navbar">
         <div className="nav">
         	<ul>
-        		<li><Link to="/" className=" logo" >Edtronics</Link></li>
+        		<li><Link to="/" className=" logo" >EDTRONICS</Link></li>
             <section className="product">
         		<li><Link to="#" className="navlink">Pre-school</Link></li>
         		<li><Link to="#" className="navlink">K-12</Link></li>
