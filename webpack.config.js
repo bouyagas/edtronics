@@ -64,6 +64,15 @@ const config = {
         test:   /\.eot(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'file-loader?name=/fonts/[name].[ext]',
       },
+
+      {
+        test: /\.html$/,
+        loader: 'html-loader?attrs[]=video:src'
+      },
+      {
+        test: /\.(webm|mp4)$/,
+        loader: 'url-loader?limit=10000&mimetype=video/mp4&name=/video/[name].[exit]'
+      },
       {
         test:   /\.svg(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'url-loader?limit=100&mimetype=image/svg+xml&name=/fonts/[name].[ext]',
