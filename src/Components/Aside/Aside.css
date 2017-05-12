@@ -18,5 +18,8 @@
 
 
 #aside p {
-  font-size: 20px;
+  font-size: 25px;
+  padding-top: 0px;
+  text-align: center;
+
 }

@@ -23,12 +23,12 @@ server.use(helmet());
 server.use(express.static(path.join(__dirname, 'dist')));
 
 server.use((req, res, next)  => {
-  res.status(404).send("Sorry can't find that!");
+  res.status(404).sendFile(path.join(__dirname, 'public/notFound.html'));
 });
 
 server.use((err, req, res, next) => {
    console.error(err.stack);
-   res.status(500).send('Something is wrong');
+   res.status(500).sendFile(path.join(__dirname, 'public/internalServerError.html'));
 });
 
 
