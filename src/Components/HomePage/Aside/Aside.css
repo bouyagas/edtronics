@@ -1,0 +1,25 @@
+#aside {
+  min-height: 690px;
+  background-color: rgb(0, 0, 0);
+  width: 92%;
+  color: #fff;
+  margin: 130px 121px 27px 60px;
+  background-image: url('../../img/alone.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#aside h1 {
+  padding-top: 185px;
+  text-align: center;
+}
+
+
+#aside p {
+  font-size: 25px;
+  padding-top: 0px;
+  text-align: center;
+
+}

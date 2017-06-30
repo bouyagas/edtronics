@@ -11,7 +11,7 @@ const BUILD_DIR         = path.resolve(__dirname, 'dist');
 const APP_DIR           = path.resolve(__dirname, 'src');
 
 const config = {
-  entry:  `${APP_DIR}/index.js`,
+  entry:  ['whatwg-fetch', `${APP_DIR}/index.js`],
   output: {
     path:     BUILD_DIR,
     filename: '/js/[name].js',
@@ -36,6 +36,7 @@ const config = {
       inject:     false,
       template:   htmlTemplate,
       appMountId: 'root-container',
+
     }),
     new ExtractTextPlugin('/css/[name].css', {
       allChunks: true,
