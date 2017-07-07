@@ -2,10 +2,38 @@
   background-color: rgb(51, 51, 51);
   height: 496.1px;
   width: 100%;
+  color: #fff;
   margin: 30px 112px 40px 0px;
   background-image: url("../../img/Iron-Man-2-PDA.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
+#article  h1 {
+ position: absolute;
+ top: 1200px;
+ font-family: 'Candal', sans-serif;
+ font-size: 50px;
+ margin-left: 132px;
+}
+
+#article p {
+  position: absolute;
+  top: 1280px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  margin-left: 135px;
+}
+
+.mybtn {
+  position: absolute;
+  top: 1380px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 135px;
+}
+
+.test {
+  font-size: 23px;
+}
 

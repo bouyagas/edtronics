@@ -13,8 +13,7 @@ export default class KeyActivities extends React.Component {
   render() {
     return (
       <div id="activity">
-      	<h1 className="center">{this.state.activity}</h1>
-      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae impedit assumenda nobis nisi, quis nostrum? Possimus fugiat illum doloribus, illo commodi vel omnis velit dolorum recusandae, laborum adipisci, animi.</p>
+      	<h3 className="center">{this.state.activity}</h3>
       </div>
     );
   }

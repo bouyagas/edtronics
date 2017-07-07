@@ -8,4 +8,31 @@
   background-size: cover;
 }
 
+#vision  h1 {
+ position: absolute;
+ top: 2240px;
+ font-family: 'Candal', sans-serif;
+ font-size: 50px;
+ margin-left: 132px;
+}
+
+#vision p {
+  position: absolute;
+  top: 2340px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  margin-left: 135px;
+}
+
+.mybtn2 {
+  position: absolute;
+  top: 2465px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 135px;
+}
+
+.test {
+  font-size: 23px;
+}
+
 
