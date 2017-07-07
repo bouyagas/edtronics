@@ -6,6 +6,7 @@ const Newsroom = (props) => {
     return (
       <div>
           <h1>news</h1>
+
       </div>
     );
 };

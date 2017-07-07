@@ -14,7 +14,7 @@ export default class Article extends React.Component {
     return (
       <div id="article">
            <h1>Our visoin of tomorrow's education</h1>
-           <p>To enable students to go belong they limit of knowledge</p>
+           <p>We enable students to go belong they limit of knowledge</p>
            <Link to="#!" className="btn-large mybtn waves-effect waves-light pink white-text" role="button">leaner more <span className="test">></span></Link>
       </div>
     );

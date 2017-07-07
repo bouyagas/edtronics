@@ -6,7 +6,7 @@ export default class Section extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      buy: "Buy"
+      buy: "Learn More"
     }
   }
 
@@ -25,7 +25,7 @@ export default class Section extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link to="#">{this.state.buy}</Link>
+                  		<Link className="black-text" to="#">{this.state.buy}</Link>
                   	</li>
                   </ul>
                </div>
@@ -43,7 +43,7 @@ export default class Section extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link to="#">{this.state.buy}</Link>
+                  		<Link className="black-text" to="#">{this.state.buy}</Link>
                   	</li>
                   </ul>
                </div>
@@ -61,7 +61,7 @@ export default class Section extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link to="#">{this.state.buy}</Link>
+                  		<Link className="black-text" to="#">{this.state.buy}</Link>
                   	</li>
                   </ul>
                </div>
@@ -79,7 +79,7 @@ export default class Section extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link to="#">{this.state.buy}</Link>
+                  		<Link className="black-text" to="#">{this.state.buy}</Link>
                   	</li>
                   </ul>
                </div>
