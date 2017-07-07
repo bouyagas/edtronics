@@ -35,7 +35,7 @@ const config = {
       inject:     false,
       template:   htmlTemplate,
       appMountId: 'root-container',
-      favicon: './favicons/brand-logo.jpg',
+      favicon: './favicons/favicon1.ico',
       meta: [
          {
             name: "description",
@@ -63,7 +63,7 @@ const config = {
          },
          {
             property:"og:url",
-            content: "http://www.edtronics.com"
+            content: "http://www.getedtronics.com"
          },
          {
             property: "og:type",
@@ -71,7 +71,7 @@ const config = {
          },
          {
             property: "og:title",
-            content:"Tanach Study"
+            content:"EDTRONICS CORPORATION"
          },
          {
             name: "theme-color",
