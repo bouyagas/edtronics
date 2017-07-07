@@ -22,7 +22,6 @@ import SupplierResponsibility from './Components/SupplierResponsibility/Supplier
 module.exports = (
       <Route path='/' component={App}>
         <IndexRoute component={HomePage} />
-          <Route path='footer'>
               <Route path='careers' component={Careers} />
               <Route path='contact' component={ContactEdtronics}/>
               <Route path='info' component={EdtronicInfo}/>
@@ -37,6 +36,5 @@ module.exports = (
               <Route path='privacy' component={Privacy}/>
               <Route path="environment" component={Environment}/>
               <Route path='supplier'  component={ SupplierResponsibility}/>
-          </Route>
        </Route>
 );

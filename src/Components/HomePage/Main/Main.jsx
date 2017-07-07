@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 import './Main.css';
 
-const Main = (props) => {
-	return (
-     <div id="main">
-       <h1>Welcome to <span>EDTRONICS</span></h1>
-        <p>Our mission: <br/> To empower every teacher and student throughout the world to a  <br/> high quality of education</p>
-     </div>
-	);
+
+export default class Main extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        }
+    }
+
+    render() {
+        return (
+          <div id="main">
+	          <h1 className="white-text" >Welcome to <span>EDTRONICS</span></h1>
+	          <p className="white-text" >Our mission is to assemble the world’s education and <br/> put it in service of everyone's empowerment. </p>
+          </div>
+
+       );
+    }
 }
 
-export default Main;
+
+

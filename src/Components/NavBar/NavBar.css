@@ -5,53 +5,33 @@
   font-style: normal;
 }
 
-#navbar {
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-  margin: 0;
-  width: 100%;
-  height: 40px;
-  /*background: rgb(242, 242, 242);*/
-  font-size: 23px;
-  font-family: trench;
-  list-style-type: none;
-}
 
-.logo {
-  color: rgb(51, 51, 51);
-  font-size: 35px;
+
+.brand {
   position: absolute;
-  top: 12px;
-  left: 20px;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-family: "trench";
+  line-height: 50px;
 }
 
-.logo:link {
-  text-decoration: none;
-}
+
 
 .navlink {
- color: rgb(51, 51, 51);
-}
-.navlink:link {
-  text-decoration: none;
-  margin-right: 50px;
-}
-
-.navlink:hover {
- color: #D2B48C;
- cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  padding: 0px 25px;
+  line-height: 50px;
 }
 
-.product {
- display: flex;
- position: absolute;
- top: 18px;
- left: 440px;
- letter-spacing: 5px;
+.container {
+  width: 95%;
+}
+
+nav {
+  box-shadow: none;
+  height: 50px;
 }
 
 
-section .product {
-  font-size: 0.9em;
-}
+

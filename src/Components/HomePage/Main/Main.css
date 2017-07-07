@@ -3,12 +3,10 @@
  align-content: center;
  flex-wrap: wrap;
  background-color: grey;
- height: 760px;
+ height: 550px;
  width: 100%;
- color: rgb(242, 242, 242);
- margin: 47px 121px 27px 0;
- font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;
- background-image: url("../../img/class.jpg");
+ margin: 0px 121px 27px 0;
+ background-image: url("../../img/anthony-menecola-180787.jpg");
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -17,20 +15,18 @@
 
 #main  h1 {
  position: absolute;
- top: 184px;
- font-size: 70px;
- font-family: trench;
+ top: 225px;
+ font-family: 'Candal', sans-serif;
+ font-size: 50px;
  margin-left: 132px;
- color: #fff;
 }
 
 #main p {
   position: absolute;
   top: 300px;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-left: 135px;
-  color: #fff;
 }
 
 

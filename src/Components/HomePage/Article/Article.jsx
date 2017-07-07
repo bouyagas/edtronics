@@ -1,14 +1,17 @@
 import React from 'react';
 import './Article.css';
 
+export default class Article extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-const Article = (props) => {
-	return (
-     <div id="article">
+  render() {
+    return (
+      <div id="article">
 
-     </div>
-	);
-};
+      </div>
+    );
+  }
+}
 
-
-export default Article;
