@@ -6,7 +6,7 @@ export default class Aside extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      buy: "Learn More"
+      learn: "Learn More"
     }
   }
 
@@ -17,7 +17,7 @@ export default class Aside extends React.Component {
             <div className="card hoverable">
                <div className="card-image">
                     <img src={require('../../img/blur.jpg')} alt="class"/>
-                    <span className="card-title">Card Title</span>
+                    <span className="card-title title">Card Title</span>
                </div>
                <div className="card-content">
                    <p> am a very simple card. I am good at containing small bits of information.</p>
@@ -25,7 +25,7 @@ export default class Aside extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link className="black-text" to="#">{this.state.buy}</Link>
+                  		<Link className="black-text link" to="#">{this.state.learn} ></Link>
                   	</li>
                   </ul>
                </div>
@@ -35,7 +35,7 @@ export default class Aside extends React.Component {
             <div className="card hoverable">
                <div className="card-image">
                     <img src={require('../../img/classroom.jpg')} alt="class"/>
-                    <span className="card-title">Card Title</span>
+                    <span className="card-title title">Card Title</span>
                </div>
                <div className="card-content">
                    <p> am a very simple card. I am good at containing small bits of information.</p>
@@ -43,7 +43,7 @@ export default class Aside extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link className="black-text" to="#">{this.state.buy}</Link>
+                  		<Link className="black-text link" to="#">{this.state.learn}</Link>
                   	</li>
                   </ul>
                </div>
@@ -53,7 +53,7 @@ export default class Aside extends React.Component {
             <div className="card hoverable">
                <div className="card-image">
                     <img src={require('../../img/book.jpg')} alt="class"/>
-                    <span className="card-title">Card Title</span>
+                    <span className="card-title title">Card Title</span>
                </div>
                <div className="card-content">
                    <p> am a very simple card. I am good at containing small bits of information.</p>
@@ -61,7 +61,7 @@ export default class Aside extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link className="black-text" to="#">{this.state.buy}</Link>
+                  		<Link className="black-text link" to="#">{this.state.learn}</Link>
                   	</li>
                   </ul>
                </div>
@@ -71,7 +71,7 @@ export default class Aside extends React.Component {
             <div className="card hoverable">
                <div className="card-image">
                     <img src={require('../../img/libery.jpg')} alt="class"/>
-                    <span className="card-title">Card Title</span>
+                    <span className="card-title title">Card Title</span>
                </div>
                <div className="card-content">
                    <p> am a very simple card. I am good at containing small bits of information.</p>
@@ -79,7 +79,7 @@ export default class Aside extends React.Component {
                <div className="card-action">
                   <ul>
                   	<li>
-                  		<Link className="black-text" to="#">{this.state.buy}</Link>
+                  		<Link className="black-text link" to="#">{this.state.learn}</Link>
                   	</li>
                   </ul>
                </div>

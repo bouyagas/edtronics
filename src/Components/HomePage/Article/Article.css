@@ -12,7 +12,7 @@
 
 #article  h1 {
  position: absolute;
- top: 1200px;
+ top: 1386px;
  font-family: 'Candal', sans-serif;
  font-size: 50px;
  margin-left: 132px;
@@ -20,7 +20,7 @@
 
 #article p {
   position: absolute;
-  top: 1280px;
+  top: 1465px;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   margin-left: 135px;
@@ -28,7 +28,7 @@
 
 .mybtn {
   position: absolute;
-  top: 1380px;
+  top: 1558px;
   font-family: 'Raleway', sans-serif;
   margin-left: 135px;
 }

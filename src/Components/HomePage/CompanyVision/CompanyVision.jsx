@@ -15,7 +15,7 @@ export default class CompanyVision extends React.Component {
       <div id="vision">
             <h1>Demain of expertise</h1>
             <p>At Edtronics, we specialize in research,  designing, developing and manufacturing <br/> educational electronics, computer softwares / hardwares and  online services that <br/> intend for education purposes</p>
-            <Link to="#!" className="btn-large mybtn2 waves-effect waves-light black white-text" role="button">leaner more <span className="test">></span></Link>
+            <Link to="#!" className="btn-large mybtn2 hoverable black white-text" role="button">leaner more <span className="test">></span></Link>
       </div>
     );
   }
