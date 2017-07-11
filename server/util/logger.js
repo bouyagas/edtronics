@@ -1,19 +1,18 @@
-
 require('color');
-const _ = require('lodash');
-const config = require('../config/config.js');
+var _ = require('lodash');
+var config = require('../config/config.js');
 
-const noop = () => {};
+var noop = function(){};
 
-const consolelog = config.logging ? console.log.bind(console) : noop;
+var consolelog = config.logging ? console.log.bind(console) : noop;
 
-const logger = {
-  log: () => {
+var logger = {
+  log: function() {
     let args = _.toArray(arguments)
-     .map((arg) => {
+     .map(function(arg) {
        if(typeof arg === 'object') {
-        // let string = JSON.stringify(arg, 2);
-        // return string.magenta;
+        var string = JSON.stringify(arg, 2);
+        return string.magenta;
        }else{
         arg+=''
          return arg.magenta;
@@ -21,6 +20,6 @@ const logger = {
      });
      consolelog.apply(console, args);
   }
-}
+};
 
 module.exports = logger;
