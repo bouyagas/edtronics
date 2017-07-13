@@ -1,13 +1,18 @@
 const userRoutes = require('express').Router();
 const logger = require('../../util/logger.js');
-const userModel= require('./userModel.js');
-const userService = require('./userServices.js');
+const { authenticateUser } = require('../../lib/auth.js');
+const { userLogin, createUser, prepUserData } = require('./userModel.js');
+const  sendAsJSON (req, res, next) => {
+  res.json(res.data);
+}
+
+
+
+userRoutes.route('/login')
+  .post(userLogin, prepUserData, sendAsJSON);
 
 userRoutes.route('/')
-      .get((req, res) => {})
-      .post((req, res) => {});
+  .get(authenticateUser, prepUserData, sendAsJSON)
+  .post(createUser, prepUserData, sendAsJSON);
 
-userRoutes.route('/:id')
-    .get((req, res) => {})
-    .put((req, res) => {})
-    .delete((req, res) => {});
+module.exports = userRoutes;
