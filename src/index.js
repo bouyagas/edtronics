@@ -6,7 +6,7 @@ import 'whatwg-fetch';
 import routes from './routes.js';
 
 
-ReactDOM.render(
+ReactDOM.render (
   <Router routes={routes} history={browserHistory} />,
   document.querySelector('#root-container')
 );

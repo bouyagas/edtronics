@@ -2,7 +2,7 @@ const userRoutes = require('express').Router();
 const logger = require('../../util/logger.js');
 const { authenticateUser } = require('../../lib/auth.js');
 const { userLogin, createUser, prepUserData } = require('./userModel.js');
-const  sendAsJSON (req, res, next) => {
+const  sendAsJSON = (req, res, next) => {
   res.json(res.data);
 }
 
