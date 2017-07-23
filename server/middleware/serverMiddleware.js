@@ -1,5 +1,4 @@
 const logger = require ('morgan');
-const path = require ('path');
 const bodyParser = require ('body-parser');
 const helmet = require('helmet');
 
