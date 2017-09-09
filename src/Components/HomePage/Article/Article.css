@@ -1,18 +1,18 @@
 #article {
-    height: 496px;
+    height: 600px;
     width: 100%;
     color: #fff;
     margin: 30px 112px 40px 0px;
     background: rgb(51, 51, 51) url("../../img/edtech-pic.jpg") no-repeat;
     background-size: cover;
     box-shadow: 0 0 5px #888888;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 
 #article  h1 {
     position: absolute;
-    top: 1386px;
+    top:  1500px;
     font-family: 'Candal', sans-serif;
     font-size: 50px;
     margin-left: 132px;
@@ -20,7 +20,7 @@
 
 #article p {
     position: absolute;
-    top: 1465px;
+    top: 1575px;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     margin-left: 135px;
@@ -28,7 +28,7 @@
 
 .mybtn {
     position: absolute;
-    top: 1558px;
+    top: 1650px;
     font-family: 'Raleway', sans-serif;
     margin-left: 135px;
 }
