@@ -22,8 +22,8 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div>
-          <nav  className="nav-wrapper white container"  role="navigation">
+      <div className="navbar-fixed">
+          <nav  className="nav-wrapper white "  role="navigation">
             <div>
                 <Link to="/" className="brand  grey-text text-darken-3">{this.state.brandName}</Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">

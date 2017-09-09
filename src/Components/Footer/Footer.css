@@ -20,6 +20,14 @@ h5 {
  margin-left: 40px;
 }*/
 
+footer {
+  box-shadow: 0 0 5px #888888;
+}
+
+footer-copyright {
+  box-shadow: 0 0 10px #888888;
+}
+
 h5 {
   font-size: 16px;
 }

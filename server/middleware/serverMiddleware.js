@@ -1,10 +1,11 @@
 const logger = require ('morgan');
 const bodyParser = require ('body-parser');
 const helmet = require('helmet');
-
+const compression = require('compression');
 
 // setup global function middleware here
 module.exports = function(server) {
+  server.use(compression());
   server.use(helmet());
   server.use(logger('dev'));
   server.use((req, res, next) => {
@@ -14,4 +15,6 @@ module.exports = function(server) {
     next();
   });
   server.use(bodyParser.json());
-}
+};
+
+

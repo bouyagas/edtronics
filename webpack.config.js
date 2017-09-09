@@ -3,7 +3,7 @@ const webpack           = require('webpack');
 const path              = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const htmlTemplate      = require('html-webpack-template');
+const HtmlTemplate      = require('html-webpack-template');
 
 const BUILD_DIR         = path.resolve(__dirname, 'dist');
 const APP_DIR           = path.resolve(__dirname, 'src');
@@ -32,7 +32,7 @@ const config = {
       title:      'Edtronics – Official Home Page',
       xhtml:      true,
       inject:     false,
-      template:   htmlTemplate,
+      template:   HtmlTemplate,
       appMountId: 'root-container',
       favicon: './favicons/favicon1.ico',
       meta: [
@@ -127,9 +127,7 @@ const config = {
   },
 };
 
-if (process.env &&
-  process.env.NODE_ENV &&
-  process.env.NODE_ENV === 'production') {
+if (process.env && process.env.NODE_ENV && process.env.NODE_ENV === 'production') {
   const prodPlugins = [
     new webpack.optimize.UglifyJsPlugin({
       compress: {

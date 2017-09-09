@@ -6,6 +6,8 @@
   background-image: url("../../img/rafal-naczynski-1440.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 0 5px #888888;
+  border-radius: 15px 15px 15px 15px;
 }
 
 #vision  h1 {

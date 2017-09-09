@@ -9,6 +9,7 @@
 
 .brand {
   position: absolute;
+  left: 10px;
   display: inline-block;
   font-size: 1.8rem;
   font-family: "trench";
@@ -29,7 +30,7 @@
 }
 
 nav {
-  box-shadow: none;
+  box-shadow: 0 0 5px #888888;
   height: 50px;
 }
 
