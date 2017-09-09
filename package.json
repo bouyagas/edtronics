@@ -2,7 +2,7 @@
   "name": "edtronics",
   "version": "1.0.0",
   "engines": {
-    "node": "8.4.0",
+    "node": "8.4.0"
   },
   "private": true,
   "description": "This is a eductional technology company that specilize in hardware and software for teachers students schools and parents.",
