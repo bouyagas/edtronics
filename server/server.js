@@ -6,8 +6,9 @@ const server = express();
 const api = require('./api/api.js');
 const { clientErr, serverErr } = require('./middleware/err.js');
 // setup the server middleware
-require('./middleware/serverMiddleware.js')(server);
+const middleware = require('./middleware/serverMiddleware.js');
 
+middleware(server);
 server.use(express.static(path.join(__dirname, '../dist')));
 // setup the api
 server.use('/api', api);
